@@ -55,6 +55,7 @@ function App() {
     </div>
       <div>
         <Routes>
+          <Route path="/" />
            <Route path="/axios" element={<axs/>}/>
            <Route path="/fetch" element={< fertch/>} />
         </Routes>
