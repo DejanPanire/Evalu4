@@ -1,0 +1,102 @@
+#root {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 3px;
+  text-align: center;
+}
+
+.card {
+  padding: 1px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 3px;
+}
+
+li {
+  background-color: #333;
+  margin-bottom: 1px;
+  padding: 1px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  word-break: break-word;
+  white-space: pre-line; 
+}
+
+button {
+  margin-left: 0.5rem;
+}
+
+input[type="text"] {
+  padding: 3px;
+  border-radius: 5px;
+  border: none;
+  width: 70%;
+  margin-right: 0.5rem;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+.main-card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  color: #333;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.main-card h1 {
+  color: #1a1a1a;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 2px;
+}
+
+li {
+  background-color: #f5f5f5;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  word-break: break-word;
+  white-space: pre-line;
+}
+
+button {
+  margin-left: 10px;
+}
+.nota-evaluacion {
+  background-color: #000000;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.nota-evaluacion h2 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.nota-evaluacion p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
