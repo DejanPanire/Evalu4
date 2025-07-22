@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import {Routes, route} from "react-dom"
+import {Routes, route} from "react-routes-dom"
 import Form from './CArepta/form';
 import Liss from './CArepta/list';
 
